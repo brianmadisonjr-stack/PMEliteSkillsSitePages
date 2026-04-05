@@ -5,7 +5,7 @@ _Last updated: 2026-04-04_
 ## Brand Intent
 - **Positioning:** Premium mastery hub for project leaders leveling up beyond certification checkboxes.
 - **Tone:** Assured, modern, uplifting. Boutique consultancy vibe with a calm, high-trust finish.
-- **Keywords:** Elite, precise, stewardship, clarity, mentorship.
+- **Keywords:** Elite, precise, velocity, clarity, insight.
 
 ## Color System ("Verdant Apex")
 | Role | Name | Hex | Usage |
@@ -77,7 +77,7 @@ _Last updated: 2026-04-04_
 - Progress rings animate on load from 0 → target with 600ms ease-out.
 
 ## Page Structure Recommendations
-1. **Hero:** Split layout with gradient background, headline, subcopy, CTAs ("Start Mastery" / "View Curriculum"), stat card showing pass rate or cohort slots.
+1. **Hero:** Split layout with gradient background, headline, subcopy, CTAs ("Start Practice" / "View Curriculum"), stat card showing pass probability or pace delta.
 2. **Value Pillars:** Three cards (Adaptive Curriculum, Mentor Pods, Elite CRM Insights) layered on Alpine Mist with Arcadia Lime accents.
 3. **Interactive Timeline:** Week-by-week readiness showcased using Summit Evergreen track and Arcadia Lime nodes.
 4. **Testimonial Carousel:** Glass panels with alumni photos, subtle botanical overlay.

@@ -391,8 +391,8 @@ section {
 .primary-nav .nav-link.active,
 .page-home .primary-nav .nav-link[data-nav="overview"],
 .page-curriculum .primary-nav .nav-link[data-nav="curriculum"],
-.page-mentors .primary-nav .nav-link[data-nav="mentors"],
-.page-crm .primary-nav .nav-link[data-nav="crm"],
+.page-practice .primary-nav .nav-link[data-nav="practice"],
+.page-analytics .primary-nav .nav-link[data-nav="analytics"],
 .page-faq .primary-nav .nav-link[data-nav="faq"] {
   color: var(--color-lime);
 }
@@ -431,8 +431,12 @@ section {
   font-weight: 600;
 }
 
-.module-grid,
-.mentor-grid,
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
 .crm-grid,
 .faq-grid {
   display: grid;
@@ -441,7 +445,6 @@ section {
 }
 
 .module-card,
-.mentor-card,
 .crm-card,
 .faq-card {
   background: var(--color-white);
@@ -451,8 +454,8 @@ section {
 }
 
 .module-card h3,
-.mentor-card h3,
-.crm-card h3 {
+.crm-card h3,
+.faq-card h3 {
   margin-bottom: 0.5rem;
 }
 
@@ -515,20 +518,6 @@ section {
   box-shadow: var(--shadow-md);
 }
 
-.mentor-card img {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.mentor-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  color: var(--color-slate);
-}
 
 .crm-metrics {
   display: grid;

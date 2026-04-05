@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PM Elite Skills | CRM & Ops</title>
+    <title>PM Elite Skills | Analytics & Insights</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,22 +12,22 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="page-crm">
+  <body class="page-analytics">
     <header class="site-header">
       <div class="shell">
-        <a class="brand" href="index.html">
+        <a class="brand" href="index.html#top">
           <img src="assets/logo/pmeliteskills-logo.svg" alt="PM Elite Skills" />
         </a>
         <nav class="primary-nav">
           <a class="nav-link" data-nav="overview" href="index.html#top">Overview</a>
           <a class="nav-link" data-nav="curriculum" href="curriculum.html">Curriculum</a>
-          <a class="nav-link" data-nav="mentors" href="mentors.html">Mentor Pods</a>
-          <a class="nav-link" data-nav="crm" href="crm.html">Elite CRM</a>
+          <a class="nav-link" data-nav="practice" href="practice.html">Practice Lab</a>
+          <a class="nav-link" data-nav="analytics" href="analytics.html">Analytics</a>
           <a class="nav-link" data-nav="faq" href="faq.html">FAQ</a>
         </nav>
         <div class="nav-cta">
           <button class="btn ghost">Login</button>
-          <a class="btn primary" href="index.html#mentors">Apply to Cohort</a>
+          <a class="btn primary" href="index.html#cta">Start practicing</a>
         </div>
       </div>
     </header>
@@ -35,15 +35,16 @@
     <main>
       <section class="page-hero">
         <div class="shell">
-          <p class="eyebrow">CRM &amp; Ops</p>
-          <h1>Lead-to-alumni intelligence built into the learning experience.</h1>
+          <p class="eyebrow">Analytics</p>
+          <h1>Live readiness intelligence for teams and solo learners.</h1>
           <p>
-            Every learner touchpoint flows into dashboards so revenue, enablement, and PMO leaders
-            know who’s ready, who’s stuck, and what impact the program is driving.
+            Dashboards combine accuracy, pace, and confidence signals so you always know who is ready to
+            sit for the exam—and who needs more reps.
           </p>
           <div class="hero-actions">
-            <span class="badge">Pipeline + readiness in one view</span>
-            <button class="btn secondary">View dashboard sample</button>
+            <span class="badge">Pass probability engine</span>
+            <span class="badge">Exports + APIs</span>
+            <button class="btn secondary">View sample dashboard</button>
           </div>
         </div>
       </section>
@@ -51,32 +52,32 @@
       <section>
         <div class="shell">
           <div class="section-head">
-            <p class="eyebrow">Ops stack</p>
-            <h2>Automations replace spreadsheet chaos.</h2>
+            <p class="eyebrow">Signals</p>
+            <h2>Metrics that matter.</h2>
           </div>
           <div class="crm-grid">
             <article class="crm-card">
-              <h3>Lead capture → cohort</h3>
+              <h3>Readiness index</h3>
               <ul>
-                <li>Readiness quiz syncs directly to CRM records</li>
-                <li>Auto-score prospects based on timeline + role</li>
-                <li>Route to cohort seat planners instantly</li>
+                <li>Accuracy × pace × confidence</li>
+                <li>Auto alerts when learners hit target probability</li>
+                <li>Recommended exam dates</li>
               </ul>
             </article>
             <article class="crm-card">
-              <h3>Engagement automation</h3>
+              <h3>Domain radar</h3>
               <ul>
-                <li>Nudge workflows for inactive learners</li>
-                <li>Mentor escalations based on quiz deltas</li>
-                <li>Industry-specific messaging packs</li>
+                <li>Heat map by PMI domain/process group</li>
+                <li>Suggested drill packs per domain</li>
+                <li>Historical trendlines</li>
               </ul>
             </article>
             <article class="crm-card">
-              <h3>Admin analytics</h3>
+              <h3>Speed + focus</h3>
               <ul>
-                <li>Conversion funnel: lead → seat → alumni</li>
-                <li>Revenue pacing + utilization dashboards</li>
-                <li>Export to Snowflake / PowerBI</li>
+                <li>Avg. seconds/question per type</li>
+                <li>Flagged distractions and second-guessing</li>
+                <li>Pace recommendations per sprint</li>
               </ul>
             </article>
           </div>
@@ -87,24 +88,24 @@
         <div class="shell">
           <div class="section-head">
             <p class="eyebrow">Dashboards</p>
-            <h2>One-glance metrics your execs actually care about.</h2>
+            <h2>Snapshots you can ship to leadership.</h2>
           </div>
           <div class="crm-metrics">
             <div class="metric-card">
-              <p class="metric">74%</p>
-              <p class="label">pipeline → seat conversion</p>
+              <p class="metric">62%</p>
+              <p class="label">Practice sessions meeting pace goals</p>
             </div>
             <div class="metric-card">
-              <p class="metric">18</p>
-              <p class="label">learners flagged &amp; resolved last week</p>
+              <p class="metric">+18 pts</p>
+              <p class="label">Avg. score delta after 2 weeks</p>
             </div>
             <div class="metric-card">
-              <p class="metric">$420k</p>
-              <p class="label">attributed revenue this quarter</p>
+              <p class="metric">37</p>
+              <p class="label">Learners exam-ready this month</p>
             </div>
             <div class="metric-card">
-              <p class="metric">4.9/5</p>
-              <p class="label">mentor satisfaction score</p>
+              <p class="metric">8:1</p>
+              <p class="label">Practice hrs → pass ratio</p>
             </div>
           </div>
         </div>
@@ -114,24 +115,24 @@
         <div class="shell">
           <div class="section-head">
             <p class="eyebrow">Integrations</p>
-            <h2>Works with your stack.</h2>
+            <h2>Share insights wherever you work.</h2>
           </div>
           <div class="module-grid">
             <article class="module-card">
               <h3>Supabase/Postgres</h3>
-              <p>Single source of truth for learner data, auth, and row-level security.</p>
+              <p>Secure backend with row-level security for all learner data.</p>
             </article>
             <article class="module-card">
-              <h3>CRM pipes</h3>
-              <p>Native connectors for HubSpot, Salesforce, and MS Dynamics.</p>
+              <h3>Enablement tools</h3>
+              <p>Push readiness updates to Slack, Teams, or email digests.</p>
             </article>
             <article class="module-card">
-              <h3>Billing</h3>
-              <p>Square and Stripe support for individual + group checkout flows.</p>
+              <h3>BI &amp; warehouse</h3>
+              <p>APIs + CSV exports for Snowflake, PowerBI, Tableau.</p>
             </article>
             <article class="module-card">
-              <h3>Data warehouse</h3>
-              <p>Optional Snowflake/S3 export for deeper analytics + AI models.</p>
+              <h3>Exam scheduling</h3>
+              <p>Webhooks to trigger “book exam” workflows once thresholds hit.</p>
             </article>
           </div>
         </div>
@@ -141,33 +142,28 @@
         <div class="shell">
           <div class="cta-card">
             <div>
-              <p class="eyebrow">See it live</p>
-              <h2>Book a CRM walkthrough.</h2>
-              <p>We’ll plug in sample data that mirrors your pipeline so you can see impact fast.</p>
+              <p class="eyebrow">Insights demo</p>
+              <h2>See your data in our dashboards.</h2>
+              <p>We’ll load anonymized sample data or your own CSV to illustrate how it works.</p>
             </div>
             <form class="cta-form">
               <label>
-                Preferred platform
+                Data source
                 <select>
-                  <option>Salesforce</option>
-                  <option>HubSpot</option>
-                  <option>Dynamics</option>
-                  <option>Other</option>
+                  <option>Supabase</option>
+                  <option>CSV export</option>
+                  <option>Other LMS</option>
                 </select>
               </label>
               <label>
-                Meeting length
-                <select>
-                  <option>30 minutes</option>
-                  <option>45 minutes</option>
-                  <option>60 minutes</option>
-                </select>
+                Org size
+                <input type="number" placeholder="150" />
               </label>
               <label>
-                Email
+                Contact
                 <input type="email" placeholder="ops@company.com" />
               </label>
-              <button class="btn primary" type="submit">Schedule demo</button>
+              <button class="btn primary" type="submit">Book analytics demo</button>
             </form>
           </div>
         </div>
@@ -183,8 +179,8 @@
         <div>
           <h4>Resources</h4>
           <a href="curriculum.html">Curriculum</a>
-          <a href="mentors.html">Mentor Pods</a>
-          <a href="crm.html">CRM Insights</a>
+          <a href="practice.html">Practice Lab</a>
+          <a href="analytics.html">Analytics</a>
         </div>
         <div>
           <h4>Company</h4>
