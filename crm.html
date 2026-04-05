@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PM Elite Skills | CRM & Ops</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-crm">
+    <header class="site-header">
+      <div class="shell">
+        <a class="brand" href="index.html">
+          <img src="assets/logo/pmeliteskills-logo.svg" alt="PM Elite Skills" />
+        </a>
+        <nav class="primary-nav">
+          <a class="nav-link" data-nav="overview" href="index.html#top">Overview</a>
+          <a class="nav-link" data-nav="curriculum" href="curriculum.html">Curriculum</a>
+          <a class="nav-link" data-nav="mentors" href="mentors.html">Mentor Pods</a>
+          <a class="nav-link" data-nav="crm" href="crm.html">Elite CRM</a>
+          <a class="nav-link" data-nav="faq" href="faq.html">FAQ</a>
+        </nav>
+        <div class="nav-cta">
+          <button class="btn ghost">Login</button>
+          <a class="btn primary" href="index.html#mentors">Apply to Cohort</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="shell">
+          <p class="eyebrow">CRM &amp; Ops</p>
+          <h1>Lead-to-alumni intelligence built into the learning experience.</h1>
+          <p>
+            Every learner touchpoint flows into dashboards so revenue, enablement, and PMO leaders
+            know who’s ready, who’s stuck, and what impact the program is driving.
+          </p>
+          <div class="hero-actions">
+            <span class="badge">Pipeline + readiness in one view</span>
+            <button class="btn secondary">View dashboard sample</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Ops stack</p>
+            <h2>Automations replace spreadsheet chaos.</h2>
+          </div>
+          <div class="crm-grid">
+            <article class="crm-card">
+              <h3>Lead capture → cohort</h3>
+              <ul>
+                <li>Readiness quiz syncs directly to CRM records</li>
+                <li>Auto-score prospects based on timeline + role</li>
+                <li>Route to cohort seat planners instantly</li>
+              </ul>
+            </article>
+            <article class="crm-card">
+              <h3>Engagement automation</h3>
+              <ul>
+                <li>Nudge workflows for inactive learners</li>
+                <li>Mentor escalations based on quiz deltas</li>
+                <li>Industry-specific messaging packs</li>
+              </ul>
+            </article>
+            <article class="crm-card">
+              <h3>Admin analytics</h3>
+              <ul>
+                <li>Conversion funnel: lead → seat → alumni</li>
+                <li>Revenue pacing + utilization dashboards</li>
+                <li>Export to Snowflake / PowerBI</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Dashboards</p>
+            <h2>One-glance metrics your execs actually care about.</h2>
+          </div>
+          <div class="crm-metrics">
+            <div class="metric-card">
+              <p class="metric">74%</p>
+              <p class="label">pipeline → seat conversion</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric">18</p>
+              <p class="label">learners flagged &amp; resolved last week</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric">$420k</p>
+              <p class="label">attributed revenue this quarter</p>
+            </div>
+            <div class="metric-card">
+              <p class="metric">4.9/5</p>
+              <p class="label">mentor satisfaction score</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Integrations</p>
+            <h2>Works with your stack.</h2>
+          </div>
+          <div class="module-grid">
+            <article class="module-card">
+              <h3>Supabase/Postgres</h3>
+              <p>Single source of truth for learner data, auth, and row-level security.</p>
+            </article>
+            <article class="module-card">
+              <h3>CRM pipes</h3>
+              <p>Native connectors for HubSpot, Salesforce, and MS Dynamics.</p>
+            </article>
+            <article class="module-card">
+              <h3>Billing</h3>
+              <p>Square and Stripe support for individual + group checkout flows.</p>
+            </article>
+            <article class="module-card">
+              <h3>Data warehouse</h3>
+              <p>Optional Snowflake/S3 export for deeper analytics + AI models.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="shell">
+          <div class="cta-card">
+            <div>
+              <p class="eyebrow">See it live</p>
+              <h2>Book a CRM walkthrough.</h2>
+              <p>We’ll plug in sample data that mirrors your pipeline so you can see impact fast.</p>
+            </div>
+            <form class="cta-form">
+              <label>
+                Preferred platform
+                <select>
+                  <option>Salesforce</option>
+                  <option>HubSpot</option>
+                  <option>Dynamics</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>
+                Meeting length
+                <select>
+                  <option>30 minutes</option>
+                  <option>45 minutes</option>
+                  <option>60 minutes</option>
+                </select>
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="ops@company.com" />
+              </label>
+              <button class="btn primary" type="submit">Schedule demo</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div>
+          <img src="assets/logo/pmeliteskills-logo.svg" alt="PM Elite Skills" />
+          <p>Premium mastery journeys for project leaders, powered by PM Intelligence Hub.</p>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <a href="curriculum.html">Curriculum</a>
+          <a href="mentors.html">Mentor Pods</a>
+          <a href="crm.html">CRM Insights</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="faq.html">FAQ</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <a href="#">LinkedIn</a>
+          <a href="#">YouTube</a>
+          <a href="#">Newsletter</a>
+        </div>
+      </div>
+      <p class="footnote">© 2026 PM Elite Skills. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
