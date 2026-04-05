@@ -393,7 +393,8 @@ section {
 .page-curriculum .primary-nav .nav-link[data-nav="curriculum"],
 .page-practice .primary-nav .nav-link[data-nav="practice"],
 .page-analytics .primary-nav .nav-link[data-nav="analytics"],
-.page-faq .primary-nav .nav-link[data-nav="faq"] {
+.page-faq .primary-nav .nav-link[data-nav="faq"],
+.page-pricing .primary-nav .nav-link[data-nav="pricing"] {
   color: var(--color-lime);
 }
 
