@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PM Elite Skills | Pricing</title>
+    <title>PM Elite Skills | Subscription Pricing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,9 +36,9 @@
     <main>
       <section class="page-hero">
         <div class="shell">
-          <p class="eyebrow">Pricing</p>
-          <h1>Simple plans for individuals and teams who need results fast.</h1>
-          <p>All plans include the adaptive practice engine, analytics dashboard, and readiness alerts.</p>
+          <p class="eyebrow">Subscription tiers</p>
+          <h1>Pick the tier that matches your exam velocity goals.</h1>
+          <p>All tiers include the adaptive practice engine, readiness analytics, and live performance alerts.</p>
         </div>
       </section>
 
@@ -46,35 +46,35 @@
         <div class="shell">
           <div class="module-grid">
             <article class="module-card">
-              <h3>Solo Sprint</h3>
-              <p class="metric">$249</p>
-              <p class="label">per learner · 6-week access</p>
+              <h3>Tier 1 · Solo Velocity</h3>
+              <p class="metric">$99<span class="label">/month</span></p>
+              <p class="label">3-month minimum</p>
               <ul>
-                <li>Full practice lab + simulations</li>
-                <li>Readiness analytics + export</li>
-                <li>Email support within 24h</li>
+                <li>Practice Lab + simulations</li>
+                <li>Readiness dashboard for one user</li>
+                <li>Email support</li>
               </ul>
               <button class="btn primary" type="button">Start solo plan</button>
             </article>
             <article class="module-card">
-              <h3>Team Accelerator</h3>
-              <p class="metric">$199</p>
-              <p class="label">per learner · min 10 seats</p>
+              <h3>Tier 2 · Team Momentum</h3>
+              <p class="metric">$79<span class="label">/seat · month</span></p>
+              <p class="label">Minimum 10 seats · billed monthly</p>
               <ul>
-                <li>Manager dashboard + alerts</li>
-                <li>Custom branding + SSO</li>
-                <li>Dedicated enablement partner</li>
+                <li>Manager analytics + alerts</li>
+                <li>Slack/Teams notifications</li>
+                <li>Dedicated success manager</li>
               </ul>
               <button class="btn primary" type="button">Book team demo</button>
             </article>
             <article class="module-card">
-              <h3>Enterprise Insight</h3>
-              <p class="metric">Custom</p>
-              <p class="label">annual license</p>
+              <h3>Tier 3 · Enterprise Command</h3>
+              <p class="metric">Custom subscription</p>
+              <p class="label">Annual commitment</p>
               <ul>
                 <li>Unlimited seats</li>
-                <li>Data warehouse + API access</li>
-                <li>Program design + reporting</li>
+                <li>Data warehouse + API feeds</li>
+                <li>Executive program design</li>
               </ul>
               <button class="btn primary" type="button">Talk to sales</button>
             </article>
@@ -85,24 +85,41 @@
       <section>
         <div class="shell">
           <div class="section-head">
-            <p class="eyebrow">Add-ons</p>
-            <h2>Optional boosters for deeper analytics or support.</h2>
+            <p class="eyebrow">Included in every tier</p>
+            <h2>No add-on required for exam-ready performance.</h2>
+          </div>
+          <ul class="list-check">
+            <li>Original PMI-style question bank</li>
+            <li>Practice Lab (precision drills + simulations)</li>
+            <li>Readiness probability + pacing analytics</li>
+            <li>Automated reminders + goal tracking</li>
+            <li>Exportable reports for stakeholders</li>
+            <li>Secure Supabase/Postgres backend</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Add-on modules</p>
+            <h2>Upgrade your subscription whenever you need.</h2>
           </div>
           <div class="split-panel">
             <div>
-              <h3>Content boosts</h3>
+              <h3>Content Boost</h3>
               <ul class="list-check">
                 <li>Industry-specific question packs</li>
-                <li>Extra full-length simulations</li>
-                <li>Audio-only lesson summaries</li>
+                <li>Extra simulations per month</li>
+                <li>Audio + flashcard companions</li>
               </ul>
             </div>
             <div>
-              <h3>Services</h3>
+              <h3>Insight Boost</h3>
               <ul class="list-check">
-                <li>Live office hours bundle</li>
-                <li>Custom analytics dashboards</li>
-                <li>Executive reporting cadence</li>
+                <li>Custom dashboards + APIs</li>
+                <li>Exec-ready reporting cadence</li>
+                <li>Live office-hour bundle</li>
               </ul>
             </div>
           </div>
@@ -113,18 +130,22 @@
         <div class="shell">
           <div class="cta-card">
             <div>
-              <p class="eyebrow">Need a quote?</p>
-              <h2>Send your headcount and timeline.</h2>
-              <p>We’ll return a custom proposal with pricing, rollout plan, and readiness targets.</p>
+              <p class="eyebrow">Need invoicing?</p>
+              <h2>Request a subscription quote.</h2>
+              <p>Send your seat count and target start date. We’ll reply with pricing worksheets and contract terms.</p>
             </div>
             <form class="cta-form">
               <label>
-                Seats
-                <input type="number" placeholder="25" />
+                Tier of interest
+                <select>
+                  <option>Tier 1 · Solo Velocity</option>
+                  <option>Tier 2 · Team Momentum</option>
+                  <option>Tier 3 · Enterprise Command</option>
+                </select>
               </label>
               <label>
-                Kickoff month
-                <input type="month" />
+                Seats
+                <input type="number" placeholder="25" />
               </label>
               <label>
                 Work email
